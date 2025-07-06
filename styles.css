@@ -232,6 +232,46 @@ body{
     text-align: center;
 }
 
+.experience__list{
+    display: grid;
+    gap: 3rem;
+}
+
+.experience__header{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.experience__header div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.experience__header img{
+    max-width: 25px;
+}
+
+.experience__header h4{
+    font-display: 1.2rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.experience__header p{
+    color: #FFFFFF;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.experience__list li p{
+    color: #FFFFFF;
+}
+
 @media (width > 768px){
     nav{
         background-color: var(--colour-one);
@@ -310,6 +350,10 @@ body{
 
     .about__text {
         padding-right: 2rem;
+    }
+
+    .experience__container{
+        padding-top: 1rem;
     }
 
     .experience__container h3{
