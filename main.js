@@ -33,3 +33,17 @@ ScrollReveal().reveal(".social-icon",{
     ...ScrollRevealOption,
     delay: 1000,
 })
+
+ScrollReveal().reveal(".header__container h1",{
+    ...ScrollRevealOption,
+})
+
+ScrollReveal().reveal(".header__container h2",{
+    ...ScrollRevealOption,
+    delay: 500,
+})
+
+ScrollReveal().reveal(".about__container p, img",{
+    ...ScrollRevealOption,
+    interval: 500,
+})
