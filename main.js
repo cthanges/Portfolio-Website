@@ -47,3 +47,8 @@ ScrollReveal().reveal(".about__container p, img",{
     ...ScrollRevealOption,
     interval: 500,
 })
+
+ScrollReveal().reveal(".experience__list li",{
+    ...ScrollRevealOption,
+    interval: 500,
+})

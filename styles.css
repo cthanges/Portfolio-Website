@@ -232,6 +232,11 @@ body{
     text-align: center;
 }
 
+.experience__container{
+    color: var(--colour-three);
+    text-align: left;
+}
+
 .experience__list{
     display: grid;
     gap: 3rem;
@@ -259,17 +264,17 @@ body{
 .experience__header h4{
     font-display: 1.2rem;
     font-weight: 600;
-    color: #FFFFFF;
+    color: var(--colour-three);
 }
 
 .experience__header p{
-    color: #FFFFFF;
+    color: var(--colour-three);
     white-space: nowrap;
     font-weight: bold;
 }
 
 .experience__list li p{
-    color: #FFFFFF;
+    color: var(--colour-three);
 }
 
 @media (width > 768px){
@@ -354,6 +359,8 @@ body{
 
     .experience__container{
         padding-top: 1rem;
+        /*max-width: 1000px;  /* Adjust width to your liking */
+        /*margin: 0 auto;     /* Center it horizontally */
     }
 
     .experience__container h3{
