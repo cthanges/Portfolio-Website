@@ -52,3 +52,8 @@ ScrollReveal().reveal(".experience__list li",{
     ...ScrollRevealOption,
     interval: 500,
 })
+
+ScrollReveal().reveal(".project__card",{
+    ...ScrollRevealOption,
+    interval: 500,
+})
