@@ -57,3 +57,27 @@ ScrollReveal().reveal(".project__card",{
     ...ScrollRevealOption,
     interval: 500,
 })
+
+ScrollReveal().reveal(".contact-form",{
+    ...ScrollRevealOption,
+    interval: 500,
+})
+
+ScrollReveal().reveal(".footer__container h4",{
+    ...ScrollRevealOption,
+})
+
+ScrollReveal().reveal(".footer__container p",{
+    ...ScrollRevealOption,
+    delay: 500,
+})
+
+ScrollReveal().reveal(".footer__container .mail__to",{
+    ...ScrollRevealOption,
+    delay: 1000,
+})
+
+ScrollReveal().reveal(".footer__socials",{
+    ...ScrollRevealOption,
+    delay: 1500,
+})
