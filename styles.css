@@ -348,6 +348,116 @@ body{
     color: var(--colour-two);
 }
 
+.contact__background {
+    background-color: var(--colour-two);
+    width: 100%;
+    min-height: 100vh;
+    /*display: flex;*/
+    /*align-items: center;     /* Vertical centering */
+    /*justify-content: center; /* Horizontal centering */
+}
+
+.contact__container{
+    background-color: var(--colour-two);
+    text-align: center;
+    margin-bottom: 9rem;
+}
+
+.contact__container h3{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1; /*4rem*/
+    color: var(--colour-three);
+    text-align: center;
+}
+
+.contact-form{
+    max-width: 600px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border-style: solid;
+    border-color: var(--colour-three);
+    color: var(--colour-one);
+    background: var(--colour-two);
+    padding: 10px 40px;
+    outline: none;
+    transition: 0.5s;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 200px;
+}
+.contact-form-btn{
+    float: right;
+    border: 0;
+    background: var(--colour-one);
+    color: var(--colour-three);
+    padding: 6px 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.contact-form-btn:hover{
+    color: var(--colour-two);
+}
+
+footer{
+    background-color: var(--colour-one);
+}
+
+.footer__container h4{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: var(--colour-two);
+    font-weight: 600;
+}
+
+.footer__container p{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: var(--colour-three);
+}
+
+.footer__container .mail__to a{
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--colour-three);
+}
+
+.mail__to a span{
+    font-size: 1rem;
+}
+
+.footer__container .mail__to:hover a{
+    color: var(--colour-two);
+}
+
+.footer__socials{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__socials a{
+    font-size: 1.25 rem;
+    color: var(--colour-three);
+}
+
+.footer__socials a:hover{
+    color: var(--colour-two);
+}
+
 @media (width > 768px){
     nav{
         background-color: var(--colour-one);
@@ -456,5 +566,15 @@ body{
 
     .project__grid{
         grid-template-columns: repeat(3, 1fr);
+    }
+
+    .contact__container{
+        padding-top: 1rem;
+        max-width: 1000px;  /* Adjust width to your liking */
+        margin: 0 auto;     /* Center it horizontally */
+    }
+
+    .contact__container h3{
+        font-size: 4rem;
     }
 }
