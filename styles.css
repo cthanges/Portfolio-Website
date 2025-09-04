@@ -135,7 +135,7 @@ body{
 .social-icon{
     color: var(--colour-three);
     transition: 0.2s;
-    font-size: 34px;
+    font-size: 1.25rem;
     text-decoration: none;
     text-align: center;
     margin: 0 15px;
@@ -520,6 +520,10 @@ footer{
     text-align: center;
 }*/
 
+    .social-icon{
+        font-size: 34px;
+    }
+
     .about__container{
         padding-top: 1rem;
         max-width: 1000px;  /* Adjust width to your liking */
@@ -590,5 +594,9 @@ footer{
 
     .footer__container p{
         font-size: 1.1rem;
+    }
+
+    .footer__socials a{
+        font-size: 34px;
     }
 }
