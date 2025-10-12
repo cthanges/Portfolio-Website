@@ -183,7 +183,7 @@ body{
 .about__container p{
     margin-bottom: 2rem;
     font-size: 0.8rem;
-    line-height: 1; /*2rem*/
+    line-height: 1.6; /*2rem*/ /*CHANGE FOR THE REST*/
     color: var(--colour-three);
     text-align: left;
 }
