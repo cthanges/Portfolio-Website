@@ -180,6 +180,14 @@ body{
     margin-bottom: 2rem;
 }
 
+.about__container h4{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    color: var(--colour-three);
+    font-weight: bold;
+    text-align: left;
+}
+
 .about__container p{
     margin-bottom: 2rem;
     font-size: 0.8rem;
@@ -277,6 +285,7 @@ body{
 
 .experience__list li p{
     color: var(--colour-three);
+    line-height: 1.6;
 }
 
 .project__background {
@@ -427,6 +436,7 @@ footer{
     margin-bottom: 1rem;
     font-size: 1rem;
     color: var(--colour-three);
+    line-height: 1.6;
 }
 
 .footer__container .mail__to a{
