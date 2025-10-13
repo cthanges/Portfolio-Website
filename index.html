@@ -76,6 +76,39 @@
                         <img src="Images/About/Profile.jpg" alt="Charran Thangeswaran">
                     </div>
                 </div>
+                <div class="about__extras">
+                    <div class="tabs">
+                        <button class="tab-button active" data-tab="skills">SKILLS</button>
+                        <button class="tab-button" data-tab="certifications">CERTIFICATIONS</button>
+                        <button class="tab-button" data-tab="awards">AWARDS</button>
+                    </div>
+
+                    <div class="tab-content active" id="skills">
+                        <ul>
+                            <li><strong>Languages:</strong> C, C++, Python, SystemC</li>
+                            <li><strong>Embedded Platforms:</strong> ARM Cortex-M, ESP32, Raspberry Pi</li>
+                            <li><strong>Tools & IDEs:</strong> Keil uVision, STM32CubeIDE, VS Code, Git</li>
+                            <li><strong>Hardware & Electronics:</strong> UART, SPI, I2C, PCB Design (Altium)</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="certifications">
+                        <ul>
+                            <li>Arm Embedded Systems Essentials</li>
+                            <li>PCB Design — Altium Education</li>
+                            <li>EV Engineering Simulation — Ford</li>
+                            <li>Software Engineering Simulation — EA</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-content" id="awards">
+                        <ul>
+                            <li>Dean’s List — Toronto Metropolitan University</li>
+                            <li>Global Hack Week Participant — MLH</li>
+                            <li>Top Project Recognition — COE838 SoC Design</li>
+                        </ul>
+                    </div>
+                </div>
             </section>
         </div>
 
@@ -298,6 +331,26 @@
                 history.scrollRestoration = 'manual';
             }
         </script>
+
+        <script>
+  const tabButtons = document.querySelectorAll('.tab-button');
+  const tabContents = document.querySelectorAll('.tab-content');
+
+  tabButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const target = button.getAttribute('data-tab');
+
+      // Remove active classes
+      tabButtons.forEach(btn => btn.classList.remove('active'));
+      tabContents.forEach(content => content.classList.remove('active'));
+
+      // Add active to selected
+      button.classList.add('active');
+      document.getElementById(target).classList.add('active');
+    });
+  });
+</script>
+
 
 
         <script src="https://unpkg.com/scrollreveal"></script>
