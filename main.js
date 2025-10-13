@@ -43,7 +43,7 @@ ScrollReveal().reveal(".header__container h2",{
     delay: 500,
 })
 
-ScrollReveal().reveal(".about__container p, img",{
+ScrollReveal().reveal(".about__container h4, p, img",{
     ...ScrollRevealOption,
     interval: 500,
 })
