@@ -47,6 +47,10 @@ ScrollReveal().reveal(".about__content",{
     ...ScrollRevealOption,
     interval: 500,
 })
+ScrollReveal().reveal(".about__extras",{
+    ...ScrollRevealOption,
+    interval: 500,
+})
 
 ScrollReveal().reveal(".experience__list li",{
     ...ScrollRevealOption,
