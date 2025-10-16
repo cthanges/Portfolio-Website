@@ -49,7 +49,7 @@ ScrollReveal().reveal(".about__content",{
 })
 ScrollReveal().reveal(".about__extras",{
     ...ScrollRevealOption,
-    interval: 500,
+    interval: 1000,
 })
 
 ScrollReveal().reveal(".experience__list li",{
@@ -60,6 +60,11 @@ ScrollReveal().reveal(".experience__list li",{
 ScrollReveal().reveal(".project__card",{
     ...ScrollRevealOption,
     interval: 500,
+})
+
+ScrollReveal().reveal(".view__more__container",{
+    ...ScrollRevealOption,
+    interval: 1000,
 })
 
 ScrollReveal().reveal(".contact-form",{
