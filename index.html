@@ -94,9 +94,12 @@
 
                     <div class="tab-content" id="certifications">
                         <ul>
+                            <li>Altium Grad to Career Program</li>
                             <li>ArmEducationX - Advanced Embedded Systems on Arm</li>
                             <li>ArmEducationX - Embedded Systems Essentials with Arm</li>
                             <li>Ford EV Engineering Advanced Job Simulation</li>
+                            <li>Ford EV Engineering Intermediate Job Simulation</li>
+                            <li>Ford EV Engineering Intro Job Simulation</li>
                             <li>Altium Education PCB Basic Design Course</li>
                             <li>Electronic Arts Software Engineering Job Simulation</li>
                             <li>Tech Stewardship Practice Program (TSPP) - Fall 2022</li>
@@ -276,7 +279,10 @@
                             <a href="https://github.com/cthanges/University-Projects/tree/main/Robot-Guidance-Challenge" target ="_blank"><i class="ri-arrow-right-up-line"></i></a>
                         </div>
                     </div>
-                </div>              
+                </div> 
+                <div class="view__more__container">
+                    <a href="https://github.com/cthanges" target="_blank" class="view__more__btn">VIEW MORE</a>
+                </div>        
             </section>
         </div>
 
@@ -337,25 +343,23 @@
         </script>
 
         <script>
-  const tabButtons = document.querySelectorAll('.tab-button');
-  const tabContents = document.querySelectorAll('.tab-content');
+            const tabButtons = document.querySelectorAll('.tab-button');
+            const tabContents = document.querySelectorAll('.tab-content');
 
-  tabButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      const target = button.getAttribute('data-tab');
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const target = button.getAttribute('data-tab');
 
-      // Remove active classes
-      tabButtons.forEach(btn => btn.classList.remove('active'));
-      tabContents.forEach(content => content.classList.remove('active'));
+                    // Remove active classes
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabContents.forEach(content => content.classList.remove('active'));
 
-      // Add active to selected
-      button.classList.add('active');
-      document.getElementById(target).classList.add('active');
-    });
-  });
-</script>
-
-
+                    // Add active to selected
+                    button.classList.add('active');
+                    document.getElementById(target).classList.add('active');
+                });
+            });
+        </script>
 
         <script src="https://unpkg.com/scrollreveal"></script>
         <script src="main.js"></script>
