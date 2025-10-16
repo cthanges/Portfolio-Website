@@ -270,6 +270,7 @@ body{
 
 .tab-content li {
   border-radius: 12px;
+  border: 1px solid var(--colour-three);
   padding: 0.6rem 1rem;
   text-align: center;
 }
@@ -414,6 +415,33 @@ body{
     color: var(--colour-two);
 }
 
+.view__more__container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.view__more__btn {
+  background-color: var(--colour-two);
+  color: var(--colour-one);
+  border: 2px solid var(--colour-three);
+  padding: 0.6rem 1.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.view__more__btn:hover {
+  background-color: var(--colour-one);
+  color: var(--colour-two);
+  border-color: var(--colour-three);
+}
+
+
 .contact__background {
     background-color: var(--colour-two);
     width: 100%;
@@ -471,6 +499,7 @@ textarea.contact-form-text{
   border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
+  font-size: 1rem;
   font-family: 'IBM Plex Sans', sans-serif;
   transition: all 0.3s ease;
 }
