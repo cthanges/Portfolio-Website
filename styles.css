@@ -275,6 +275,36 @@ body{
   text-align: center;
 }
 
+.skills-category {
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.skills-category h5 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--colour-three);
+  margin-bottom: 1rem;
+  letter-spacing: 0.05rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-tag {
+  background-color: var(--colour-two);
+  color: var(--colour-three);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: 1px solid var(--colour-three);
+  font-size: 0.85rem;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
 .experience__background {
     background-color: var(--colour-two);
     width: 100%;
