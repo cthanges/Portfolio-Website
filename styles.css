@@ -320,6 +320,13 @@ body{
   font-size: 0.85rem;
   display: inline-block;
   transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.certifications-tag:hover {
+    background-color: var(--colour-one);
+    color: var(--colour-two);
+    border-color: var(--colour-three);
 }
 
 .experience__background {
