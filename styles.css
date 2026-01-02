@@ -283,7 +283,7 @@ body{
 .skills-category h5 {
   font-size: 0.9rem;
   font-weight: 600;
-  color: var(--colour-one);
+  color: var(--colour-three);
   margin-bottom: 1rem;
   letter-spacing: 0.05rem;
 }
