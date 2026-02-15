@@ -76,7 +76,7 @@ body{
 }
 
 .nav__links a:hover{
-    color: var(--colour-two);
+    color: var(--colour-four);
 }
 
 .nav__bar{
@@ -144,7 +144,7 @@ body{
 }
 
 .social-icon:hover{
-    color: var(--colour-two);
+    color: var(--colour-four);
 }
 
 .about__background {
@@ -244,8 +244,8 @@ body{
 
 .tab-button:hover,
 .tab-button.active {
-  background-color: var(--colour-one);
-  color: var(--colour-two);
+  background-color: var(--colour-four);
+  color: var(--colour-one);
   border-color: var(--colour-three);
 }
 
@@ -469,7 +469,7 @@ body{
 
 .project__card__details a:hover{
     font-size: 1.5rem;
-    color: var(--colour-two);
+    color: var(--colour-four);
 }
 
 .view__more__container {
@@ -493,8 +493,8 @@ body{
 }
 
 .view__more__btn:hover {
-  background-color: var(--colour-one);
-  color: var(--colour-two);
+  background-color: var(--colour-four);
+  color: var(--colour-one);
   border-color: var(--colour-three);
 }
 
@@ -562,8 +562,8 @@ textarea.contact-form-text{
 }
 
 .contact-form-btn:hover {
-  background-color: var(--colour-one);
-  color: var(--colour-two);
+  background-color: var(--colour-four);
+  color: var(--colour-one);
   border-color: var(--colour-three);
 }
 
@@ -599,7 +599,7 @@ footer{
 }
 
 .footer__container .mail__to:hover a{
-    color: var(--colour-two);
+    color: var(--colour-four);
 }
 
 .footer__socials{
@@ -614,7 +614,7 @@ footer{
 }
 
 .footer__socials a:hover{
-    color: var(--colour-two);
+    color: var(--colour-four);
 }
 
 @media (width > 768px){
