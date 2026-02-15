@@ -2,9 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Share+Tech+Mono&display=swap');
 
 :root{
-    --colour-one: #0D3B66;
+    --colour-one: #000000;
     --colour-two: #F5F5F7;
     --colour-three: #727272;
+    --colour-four: #FFD87A;
     --max-width: 900px;
 }
 
@@ -166,13 +167,13 @@ body{
     font-size: 2rem;
     font-weight: bold;
     line-height: 1; /*4rem*/
-    color: var(--colour-three);
+    color: var(--colour-one);
     text-align: center;
 }
 
 .about__dash{
     border-radius: 25px;
-    background: var(--colour-one);
+    background: var(--colour-four);
     padding: 5px;
     width: 50px;
     height: 10px;
@@ -351,7 +352,7 @@ body{
     font-size: 2rem;
     font-weight: bold;
     line-height: 1; /*4rem*/
-    color: var(--colour-three);
+    color: var(--colour-one);
     text-align: center;
 }
 
@@ -422,7 +423,7 @@ body{
     font-size: 2rem;
     font-weight: bold;
     line-height: 1; /*4rem*/
-    color: var(--colour-three);
+    color: var(--colour-one);
     text-align: center;
 }
 
@@ -518,7 +519,7 @@ body{
     font-size: 2rem;
     font-weight: bold;
     line-height: 1; /*4rem*/
-    color: var(--colour-three);
+    color: var(--colour-one);
     text-align: center;
 }
 
