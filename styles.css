@@ -525,10 +525,9 @@ body{
     line-height: 1.45;
 }
 
-.project__card__overlay a{
+.project__card__overlay .view__more__btn{
     width: fit-content;
-    color: var(--colour-four);
-    font-size: 1.6rem;
+    align-self: center;
 }
 
 .project__card:hover .project__card__overlay,
